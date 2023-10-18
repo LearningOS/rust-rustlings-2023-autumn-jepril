@@ -13,10 +13,16 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(mount:i32) ->i32{
+    if mount<=40{
+        return mount * 2;
+    }else{
+        return mount;
+    }
+
+}
 
 // Don't modify this function!
 #[test]
